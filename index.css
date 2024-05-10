@@ -1,6 +1,61 @@
-h1{
-    color: black;
+*{
+    padding: 0%;
+    margin: 0%;
+    background-size: cover;
+    
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 122, 122);
+    margin-left: 8%;
+    
+
+}
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 122, 122);
+    margin-left: 8%;
+   
 }
 body{
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 122, 122);
+    margin-top: 7%;
+    margin-bottom: 7%;
+
+    
+    
+}
+input, select, button, textarea{
+    border-radius: 5px;
+   
+}
+.campo input[type="text"], .campo [type="email"], .campo select, .campo textarea{
+    padding: 1%;
+    border: 1px solid color rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(206, 255, 253);
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 8%;
+    
+}
+.campo select option{
+    padding-right: 2 em;
+}
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.concluido{
+    font-size: 1.2 em;
+    background: rgb(0, 122, 122);
+    border: 1px;
+    margin-bottom: 1em;
+    color: rgb(206, 255, 253);
+    width: 100px;
+    height: 200px;
+ 
 }

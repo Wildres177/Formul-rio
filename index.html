@@ -16,45 +16,45 @@
     <form action="">
         <fieldset class="grupo">
             <div class="campo">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required>
             </div>
 
-            <div>
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
                 
             </div>
         </fieldset>
         <br>
         <div class="campo">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required>
         </div>
         <br>
-        <div>
-            <label for="sexo">Qual seu gênero:</label>
+        <div class="campo">
+            <label for="sexo"><strong>Qual seu gênero:</strong></label>
             <label for="sexo">
-                <input type="radio" name="sexo" value="sexo">Masculino
-                <input type="radio" name="sexo" value="sexo">Feminino
+                <input type="radio" name="sexo" value="sexo" required>Masculino
+                <input type="radio" name="sexo" value="sexo" required>Feminino
             </label>
         </div>
         <br>
         <div class="campo">
-            <label for="aplicações">De qual lado da aplicação você desenvolve?</label>
+            <label for="aplicações"><strong>De qual lado da aplicação você desenvolve?</strong></label>
             <label for="aplicações"> 
-                <input type="radio" name="devweb" value="front-end" checked>Front-end
+                <input type="radio" name="devweb" value="front-end" checked >Front-end
             </label>
             <label for="aplicações">
-                <input type="radio" name="devweb" value="back-end">Back-end
+                <input type="radio" name="devweb" value="back-end" >Back-end
             </label>
             <label for="aplicações">
                 <input type="radio" name="devweb" value="fullstack">Fullstack
             </label>
         </div class="campo">
         <br>
-        <div>
-            <label for="senioridade">Senioridade</label>
+        <div class="campo">
+            <label for="senioridade"><strong>Senioridade:</strong></label>
             <select name="senioridade" id="senioridade">
                 <option selected disabled value="">Select</option>
                <option>Junior</option>
@@ -66,8 +66,8 @@
         <br>
 
         <fieldset class="grupo">
-            <div class="campo">
-                <label>Selecione as Tecnologias que usa:</label>
+            <div class="chek">
+                <label><strong>Selecione as Tecnologias que usa:</strong></label>
                 <br><br>
                 <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
@@ -96,12 +96,12 @@
         </fieldset>
         <br>
         <div class="campo">
-            <label>Conte sobre sua experiência:</label>
+            <label><strong>Conte sobre sua experiência:</strong></label>
             <br>
             <textarea name="area de texto" id="area de texto" cols="30" rows="10"></textarea>
             <br>
             <label>
-            <input type="text" name="concluido" id="concluido">concluido
+            <button class="concluido" type="submit">concluido</button>
         </label>
         </div>
         
