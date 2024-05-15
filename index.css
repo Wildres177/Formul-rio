@@ -10,13 +10,16 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 122, 122);
     margin-left: 8%;
-    
+    display: flex;
+    justify-content: center;
 
 }
 #subtitulo{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 122, 122);
     margin-left: 8%;
+    display: flex;
+    justify-content: center;
    
 }
 body{
@@ -40,6 +43,8 @@ input, select, button, textarea{
     color: rgb(255, 255, 255);
     display: block;
     margin-left: 8%;
+    display: flex;
+    align-self: center;
     
 }
 .campo select option{
@@ -56,7 +61,7 @@ fieldset .grupo .campo{
     border: 1px;
     margin-bottom: 1em;
     color: rgb(206, 255, 253);
-    width: 100px;
-    height: 200px;
- 
+
+
+
 }
