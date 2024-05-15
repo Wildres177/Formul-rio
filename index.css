@@ -42,30 +42,50 @@ input, select, button, textarea{
     margin-bottom: 0.2em;
     display: block;
 }
-.campo input[type="text"], .campo [type="email"], .campo select, .campo textarea{
-    padding: 1%;
-    border: 1px solid color rgb(255, 255, 255);
-    box-shadow: 3px 3px 3px rgb(206, 255, 253);
-    color: rgb(255, 255, 255);
-    display: block;
-    margin-left: 8%;
-    display: flex;
-    align-self: center;
-    
-}
-.campo select option{
-    padding-right: 2 em;
-}
 fieldset .grupo .campo{
     float: left;
     margin-right: 1em;
 }
 
-.concluido{
-    font-size: 1.2 em;
+.campo input[type="text"], .campo [type="email"], .campo select, .campo textarea{
+    padding: 1%;
+    border: 1px solid color rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: rgb(255, 239, 214);
+}
+
+.botao{
+    font-size: 1.2em;
     background: rgb(0, 122, 122);
-    border: 1px;
+    border: 0;
     margin-bottom: 1em;
     color: rgb(206, 255, 253);
-
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover{
+    background-color: rgb(184, 255, 231);
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: none;
+}
+.botao, select{
+    cursor: pointer;
+}
+#chek{
+    display: inline-block;
+    
 }
