@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     background-size: cover;
+
 }
 
 #titulo{
@@ -13,7 +14,7 @@
 #subtitulo{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(9, 87, 87);
-    margin-left: 10%;justify-content: space-between;
+    margin-left: 10%;
 }
 
 #check{
@@ -31,8 +32,7 @@ body{
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 2%;
-    width: 300px;
-
+    justify-content: center;
 }
 
 
@@ -47,13 +47,11 @@ body{
     width: 250px;
 }
 
-
 input, select, textarea, button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: black;
     border-radius: 6px;
-    
 }
 
 .grupo:before, .grupo:after{
@@ -106,4 +104,3 @@ fieldset.grupo .campo{
 .botao, select{
     cursor: pointer;
 }
-
