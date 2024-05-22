@@ -175,3 +175,14 @@ fieldset.grupo .campo{
         width: 240px;
     }
 }
+@media screen and (max-width:390px) {
+    #titulo{
+        width: 320px;
+        height: 120px;
+    }
+    #subtitulo{
+        width: 320px;
+        height: 50px;
+    }
+    
+}
