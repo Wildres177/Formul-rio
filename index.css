@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     background-size: cover;
+    background-size: auto;
 
 }
 
@@ -9,6 +10,8 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(9, 87, 87);
     margin-left: 7%;
+    font-size: 45px;
+    
 }
 
 #subtitulo{
@@ -30,12 +33,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(9, 87, 87);
     margin-left: 30%;
-    margin-right: 30%;
     margin-top: 2%;
     justify-content: center;
+    
 }
 
+.container label{
+    font-size: 20px;
 
+}
 
 .campo input[type="text"]{
     height: 50px;
@@ -103,4 +109,69 @@ fieldset.grupo .campo{
 }
 .botao, select{
     cursor: pointer;
+}
+
+@media screen and (max-width:1330px){
+
+    *{
+        background-size: cover;
+        background-size: auto;
+    }
+
+}
+
+@media screen and (max-width:1064px) {
+
+    .container{
+        background-size: cover;
+        background-size: auto;
+        
+    }
+    body{
+    
+        margin-left: 25%;
+        margin-top: 2%;
+        margin-bottom: 2%
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .container{
+        background-size: auto;
+        background-size: cover;
+        width: 50%;
+    }
+    #titulo{
+        padding: 0%;
+        width: 320px;
+        height: 70px;
+        margin-left: 3%;
+    }
+    #subtitulo{
+        padding: 0%;
+        width: 320px;
+        height: 35px;
+    }
+    
+    body{
+
+        margin-left: 15%;
+        margin-right: 0%;
+        margin-top:2%;
+        margin-bottom:2%;
+    }
+    #areadetexto{
+
+        height: 140px;
+
+    }
+    .campo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .botao{
+    
+        width: 240px;
+    }
 }
